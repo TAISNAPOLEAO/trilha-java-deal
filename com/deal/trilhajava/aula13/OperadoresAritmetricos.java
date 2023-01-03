@@ -46,6 +46,12 @@ public class OperadoresAritmetricos {
 		//resultado +1;
 		//System.out.println(resultado);
 		
+		resultado--;
+		System.out.println(resultado);
+		
+		System.out.println(resultado--);
+		System.out.println(--resultado);
+		
 		
 
 	}
