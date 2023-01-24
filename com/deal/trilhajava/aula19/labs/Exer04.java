@@ -1,5 +1,6 @@
 package com.deal.trilhajava.aula19.labs;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exer04 {
@@ -26,11 +27,13 @@ public class Exer04 {
 			System.out.print(vetorA[i] + " ");
 		}
 		
+		DecimalFormat df = new DecimalFormat("###,###.###");
+		
 		System.err.println();
 		System.out.print("Vetor B =");
 		for(int i=0; i<vetorB.length; i++) {
 			
-			System.out.print(vetorB[i] + " ");
+			System.out.print(df.format(vetorB[i]) + " ");
 		}
 
 	}
